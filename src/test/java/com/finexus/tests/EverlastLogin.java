@@ -3,6 +3,9 @@ package com.finexus.tests;
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
 import org.testng.annotations.*;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import static org.testng.Assert.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,9 +17,12 @@ public class EverlastLogin {
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
 
+
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-    driver = new ChromeDriver();
+    
+	  WebDriverManager.chromedriver().setup();
+	  driver = new ChromeDriver();
     baseUrl = "https://www.katalon.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }

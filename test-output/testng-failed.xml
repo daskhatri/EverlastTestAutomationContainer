@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.finexus.rawTestcases.LoginTc">
+      <class name="com.finexus.tests.EverlastLogin">
         <methods>
-          <include name="testLoginTc"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="setupClass"/>
+          <include name="testEverlastLogin"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.finexus.rawTestcases.LoginTc -->
+      </class> <!-- com.finexus.tests.EverlastLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
