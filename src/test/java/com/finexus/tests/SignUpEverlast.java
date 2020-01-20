@@ -16,7 +16,7 @@ public class SignUpEverlast {
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-    WebDriverManager.chromedriver().setup(); driver = new ChromeDriver()();
+    driver = new FirefoxDriver();
     baseUrl = "https://www.katalon.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
