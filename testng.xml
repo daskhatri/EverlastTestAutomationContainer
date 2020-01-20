@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Test Maven Suite">
+
+	<test name = "Test Maven Testing">
+		<packages>
+			<package name = "com.finexus.tests.*"/>
+		</packages>
+	</test>
+</suite>

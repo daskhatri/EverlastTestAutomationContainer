@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.finexus.tests.SignUpEverlast">
+      <class name="com.finexus.tests.Test1">
         <methods>
+          <include name="test1"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testSignUpEverlast"/>
         </methods>
-      </class> <!-- com.finexus.tests.SignUpEverlast -->
+      </class> <!-- com.finexus.tests.Test1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

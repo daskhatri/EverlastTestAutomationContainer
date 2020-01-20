@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33586" started-at="2020-01-20T18:14:55 PKT" finished-at="2020-01-20T18:15:29 PKT">
+  <suite name="Default suite" duration-ms="58567" started-at="2020-01-20T20:10:19 PKT" finished-at="2020-01-20T20:11:17 PKT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33586" started-at="2020-01-20T18:14:55 PKT" finished-at="2020-01-20T18:15:29 PKT">
-      <class name="com.finexus.tests.SignUpEverlast">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.finexus.tests.SignUpEverlast@56aac163]" name="setUp" is-config="true" duration-ms="3672" started-at="2020-01-20T18:14:55 PKT" finished-at="2020-01-20T18:14:59 PKT">
+    <test name="Default test" duration-ms="58567" started-at="2020-01-20T20:10:19 PKT" finished-at="2020-01-20T20:11:17 PKT">
+      <class name="com.finexus.tests.Test1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.finexus.tests.Test1@56aac163]" name="setUp" is-config="true" duration-ms="7364" started-at="2020-01-20T20:10:19 PKT" finished-at="2020-01-20T20:10:26 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testSignUpEverlast()[pri:0, instance:com.finexus.tests.SignUpEverlast@56aac163]" name="testSignUpEverlast" duration-ms="29119" started-at="2020-01-20T18:14:59 PKT" finished-at="2020-01-20T18:15:28 PKT">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method status="FAIL" signature="test1()[pri:0, instance:com.finexus.tests.Test1@56aac163]" name="test1" duration-ms="50262" started-at="2020-01-20T20:10:26 PKT" finished-at="2020-01-20T20:11:16 PKT">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[element click intercepted: Element <input type="email" name="email" autocomplete="email" id="email_address" value="" title="Email" class="input-text" data-validate="{required:true, 'validate-email':true}" aria-required="true"> is not clickable at point (320, 556). Other element would receive the click: <fieldset class="fieldset create account" data-hasrequired="* Required Fields">...</fieldset>
+              <![CDATA[element not interactable
   (Session info: chrome=76.0.3809.100)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-JCEGEB0', ip: '192.168.50.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c4b64459ac396156a7cefb683101c9e6]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7401bf262261b2aaca6611c2ff160127]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="email" name="email" autocomplete="email" id="email_address" value="" title="Email" class="input-text" data-validate="{required:true, 'validate-email':true}" aria-required="true"> is not clickable at point (320, 556). Other element would receive the click: <fieldset class="fieldset create account" data-hasrequired="* Required Fields">...</fieldset>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=76.0.3809.100)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-JCEGEB0', ip: '192.168.50.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c4b64459ac396156a7cefb683101c9e6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\NOORTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7401bf262261b2aaca6611c2ff160127
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -41,8 +41,8 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-at com.finexus.tests.SignUpEverlast.testSignUpEverlast(SignUpEverlast.java:34)
+at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:118)
+at com.finexus.tests.Test1.test1(Test1.java:29)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -73,15 +73,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSignUpEverlast -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.finexus.tests.SignUpEverlast@56aac163]" name="tearDown" is-config="true" duration-ms="735" started-at="2020-01-20T18:15:28 PKT" finished-at="2020-01-20T18:15:29 PKT">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.finexus.tests.Test1@56aac163]" name="tearDown" is-config="true" duration-ms="834" started-at="2020-01-20T20:11:16 PKT" finished-at="2020-01-20T20:11:17 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.finexus.tests.SignUpEverlast -->
+      </class> <!-- com.finexus.tests.Test1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
