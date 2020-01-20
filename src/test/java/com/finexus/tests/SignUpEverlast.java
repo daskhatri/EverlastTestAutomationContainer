@@ -1,11 +1,11 @@
-package com.finexus.tests;
+package com.finexus.tests; import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
 import org.testng.annotations.*;
 import static org.testng.Assert.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class SignUpEverlast {
@@ -16,7 +16,7 @@ public class SignUpEverlast {
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-    driver = new ChromeDriver();
+    driver = new FirefoxDriver();
     baseUrl = "https://www.katalon.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
